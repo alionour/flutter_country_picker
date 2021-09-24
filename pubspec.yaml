@@ -23,5 +23,12 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 flutter:
+  plugin:
+    platforms: 
+      android: 
+        package: com.example.flutter_country_picker
+        pluginClass: FlutterCountryPickerPlugin
+      ios: 
+        pluginClass: FlutterCountryPickerPlugin
   assets:
     - assets/flags/
