@@ -1,6 +1,6 @@
-/// A country definition with image asset, dialing code and localized name.
 // ignore_for_file: constant_identifier_names
 
+/// A country definition with image asset, dialing code and localized name.
 class Country {
   /// the flag image asset name
   final String asset;

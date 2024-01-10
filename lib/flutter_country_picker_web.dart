@@ -31,7 +31,8 @@ class FlutterCountryPickerWeb {
       default:
         throw PlatformException(
           code: 'Unimplemented',
-          details: 'flutter_country_picker for web doesn\'t implement \'${call.method}\'',
+          details:
+              'flutter_country_picker for web doesn\'t implement \'${call.method}\'',
         );
     }
   }
