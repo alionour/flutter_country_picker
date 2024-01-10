@@ -2,7 +2,7 @@ name: flutter_country_picker_plus
 description: A Flutter plugin that provides a country picker widget.
 repository: https://github.com/alionour/flutter_country_picker
 
-version: 0.0.2
+version: 0.0.3
 # homepage:
 
 environment:
@@ -27,16 +27,15 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 
+# This package supports all platforms listed below.
+platforms:
+  android: true
+  ios: true
+  linux: true
+  macos: true
+  web: true
+  windows: true
 
-flutter:
-  plugin:
-    platforms: 
-      web: true
-      windows: true
-      linux: true
-      macos: true 
-      ios: true
-      android: true
-      
+flutter:  
   assets:
     - assets/flags/
